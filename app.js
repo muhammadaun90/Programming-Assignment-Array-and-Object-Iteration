@@ -20,3 +20,9 @@ function birdCan() {
 }
 birdCan();
 // Task 3
+function animalCan() {
+    for (const key in animal, bird) {
+        console.log(key, ":", bird[key]);
+    }
+}
+animalCan();
